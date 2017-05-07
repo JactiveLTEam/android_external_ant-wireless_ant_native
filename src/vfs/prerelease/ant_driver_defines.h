@@ -46,11 +46,11 @@
 
 // Set the file name the driver creates for the ANT device:
 //   If chip uses separate command and data paths:
-#define ANT_COMMANDS_DEVICE_NAME             "/dev/smd5"
-#define ANT_DATA_DEVICE_NAME                 "/dev/smd6"
+//#define ANT_COMMANDS_DEVICE_NAME             "/dev/smd5"
+//#define ANT_DATA_DEVICE_NAME                 "/dev/smd6"
 // OR
 //   If chip uses one path:
-// #define ANT_DEVICE_NAME                      "/dev/Z"
+ #define ANT_DEVICE_NAME                      "/dev/ttyHS0"
 
 	
 // Set to the number of bytes of header is for Opcode:
